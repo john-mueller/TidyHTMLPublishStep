@@ -1,0 +1,8 @@
+disabled_rules:
+  - trailing_comma
+  - orphaned_doc_comment
+
+excluded:
+  - .build
+  - Tests/TidyHTMLPublishStepTests/Helpers/XCTestManifests.swift
+  - Tests/LinuxMain.swift
