@@ -1,10 +1,8 @@
-/**
- *  TidyHTMLPublishStep
- *  © 2019 John Sundell, 2020 John Mueller
- *  MIT license, see LICENSE.md for details
- *
- *  This file was copied as-is from the Publish test target
- */
+// TidyHTMLPublishStep
+// © 2019 John Sundell, 2020 John Mueller
+// MIT license, see LICENSE.md for details
+//
+// This file was copied as-is from the Publish test target
 
 import Plot
 import Publish

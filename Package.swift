@@ -1,10 +1,8 @@
 // swift-tools-version:5.1
 
-/**
- *  TidyHTMLPublishStep
- *  © 2020 John Mueller
- *  MIT license, see LICENSE.md for details
- */
+// TidyHTMLPublishStep
+// © 2020 John Mueller
+// MIT license, see LICENSE.md for details
 
 import PackageDescription
 

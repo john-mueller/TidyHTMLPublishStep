@@ -1,8 +1,6 @@
-/**
- *  TidyHTMLPublishStep
- *  © 2020 John Mueller
- *  MIT license, see LICENSE.md for details
- */
+// TidyHTMLPublishStep
+// © 2020 John Mueller
+// MIT license, see LICENSE.md for details
 
 import Foundation
 

@@ -1,8 +1,6 @@
-/**
- *  TidyHTMLPublishStep
- *  © 2020 John Mueller
- *  MIT license, see LICENSE.md for details
- */
+// TidyHTMLPublishStep
+// © 2020 John Mueller
+// MIT license, see LICENSE.md for details
 
 import Plot
 import Publish
@@ -21,7 +19,7 @@ final class TidyHTMLPublishStepTests: TidyHTMLTestCase {
         htmlFactory.makePageHTML = { page, _ in
             HTML(.body(.p(.text(page.title))))
         }
-        
+
         try publishWebsite(
             using: Theme(htmlFactory: htmlFactory),
             content: [
