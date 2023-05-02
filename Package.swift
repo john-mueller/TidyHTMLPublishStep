@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 
 // TidyHTMLPublishStep
 // © 2020 John Mueller
@@ -8,6 +8,7 @@ import PackageDescription
 
 let package = Package(
     name: "TidyHTMLPublishStep",
+    platforms: [.macOS(.v12)],
     products: [
         .library(name: "TidyHTMLPublishStep", targets: ["TidyHTMLPublishStep"]),
     ],
